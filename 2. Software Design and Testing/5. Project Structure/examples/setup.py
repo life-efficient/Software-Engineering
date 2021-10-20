@@ -7,7 +7,7 @@ setup(
     description='Mock package that allows you to find celebrity by date of birth',
     url='https://github.com/IvanYingX/project_structure_pypi.git', # Add the URL of your github repo if published 
                                                                    # in GitHub
-    author='Ivan Ying', # Your name
+    author='Blair Martin', # Your name
     license='MIT',
     packages=find_packages(), # This one is important to explain. See the notebook for a detailed explanation
     install_requires=['requests', 'beautifulsoup4'], # For this project we are using two external libraries

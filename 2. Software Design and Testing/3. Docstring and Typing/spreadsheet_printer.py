@@ -2,7 +2,7 @@
 
 This script allows the user to print to the console all columns in the
 spreadsheet. It is assumed that the first row of the spreadsheet is the
-location of the columns.
+location of the columns. Here is additional documentation.
 
 This tool accepts comma separated value files (.csv) as well as excel
 (.xls, .xlsx) files.

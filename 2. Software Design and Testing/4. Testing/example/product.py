@@ -1,3 +1,6 @@
+from unittest.main import main
+
+
 class Product:
     def __init__(self, name, size, color):  # <1>
         self.name = name
@@ -21,3 +24,8 @@ class Product:
         name = self.transform_name_for_sku()
         color = self.transform_color_for_sku()
         return f'{name}-{self.size}-{color}'
+
+if __name__ == "__main__":
+    shoes = Product('Hugo Boss', 11, 'Black')
+    print(shoes.generate_sku())
+

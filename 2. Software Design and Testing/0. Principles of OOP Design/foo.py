@@ -3,7 +3,7 @@ I am here to see if the documentation of a module works!
 '''
 from bs4 import BeautifulSoup  # type: ignore
 import requests
-x = 'I have changed'
+x = 'I have changed again'
 y = 'Y am I here?'
 
 
@@ -30,3 +30,8 @@ def get_html(url: str) -> BeautifulSoup:
 
 if __name__ == '__main__':
     get_html('https://www.google.com')
+    
+    def addition(a, b):
+        return a + b
+
+    addition(10,2)
